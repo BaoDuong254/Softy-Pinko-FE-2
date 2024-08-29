@@ -275,6 +275,51 @@
 	}
 }
 /* End section 5 */
+/* Form */
+.talk-to-us {
+	background: #f2f2fe;
+	padding: 100px 0;
+}
+.talk-to-us .box-head .inner-title {
+	font-size: 28px;
+}
+.talk-to-us .box-head .inner-desc {
+	color: #777777;
+	font-size: 15px;
+}
+.talk-to-us .inner-content .inner-title {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.talk-to-us .inner-content p {
+	font-size: 14px;
+	color: #6f8ba4;
+	margin-bottom: 28px;
+}
+.talk-to-us .inner-form input,
+.talk-to-us .inner-form textarea {
+	width: 100%;
+	padding: 15px;
+	min-height: 15px;
+	margin-bottom: 15px;
+	border-radius: 25px;
+	border: none;
+	background: white;
+	resize: none;
+}
+.talk-to-us .inner-form input:focus,
+.talk-to-us .inner-form textarea:focus {
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+	box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.talk-to-us .inner-form input {
+	height: 50px;
+}
+.talk-to-us .inner-form textarea {
+	height: 150px;
+}
+/* End form */
 /* Footer */
 .footer {
 	background-image: -o-linear-gradient(323deg, #a759d1 0%, #8261ee 91%);
