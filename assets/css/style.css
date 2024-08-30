@@ -150,9 +150,10 @@
 	margin-bottom: 15px;
 }
 .section2 .inner-box .inner-desc {
-	font-size: 16px;
+	font-size: 13px;
 	margin-bottom: 0;
 	max-width: 290px;
+	letter-spacing: 0.5px;
 }
 @media (max-width: 991.98px) {
 	.section2 {
@@ -190,6 +191,131 @@
 	}
 }
 /* End section 3 */
+/* Work Process */
+.work-process {
+	background-image: url(../image/work-process-bg.png);
+	padding: 100px 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.work-process .box-head .inner-title,
+.work-process .box-head .inner-desc {
+	color: white;
+	max-width: 540px;
+}
+.work-process .box-head .inner-title {
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.work-process .box-head .inner-desc {
+	margin-bottom: 60px;
+}
+.work-process .inner-box {
+	text-align: center;
+	background-color: white;
+	border-radius: 15px;
+	padding: 20px;
+	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	margin-bottom: 30px;
+	display: block;
+}
+.work-process .inner-box:hover {
+	translate: 0px -10px;
+}
+.work-process .inner-box::before {
+	content: "";
+	background: white;
+	z-index: 10;
+	width: 100%;
+	opacity: 0.15;
+	height: 100%;
+	bottom: -10px;
+	left: 0px;
+	margin: auto;
+	right: -20px;
+	border-radius: 15px;
+	position: absolute;
+}
+.work-process .inner-icon i {
+	font-size: 32px;
+	color: var(--color-one);
+}
+.work-process .inner-box .inner-title {
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #1e1e1e;
+	font-weight: 400;
+}
+.work-process .inner-box .inner-desc {
+	font-size: 14px;
+	color: #777777;
+	max-width: 120px;
+	letter-spacing: 0.75px;
+}
+/* End work process */
+/* What do */
+.what-do {
+	padding: 80px 0;
+}
+.what-do .box-head .inner-title {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.what-do .box-head .inner-desc {
+	color: #777777;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+.what-do .inner-box {
+	background: white;
+	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	position: relative;
+	margin-bottom: 30px;
+	padding: 30px;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.what-do .inner-box .inner-icon {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.what-do .inner-box .inner-desc {
+	font-size: 16px;
+	color: #777777;
+	margin-bottom: 25px;
+}
+.what-do .inner-box .inner-info {
+	display: flex;
+}
+.what-do .inner-box .inner-info .inner-img img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.what-do .inner-box .inner-info .inner-content {
+	margin-left: 20px;
+	padding-top: 7px;
+}
+.what-do .inner-box .inner-info .inner-content .inner-name {
+	font-size: 17px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.what-do .inner-box .inner-info .inner-content .inner-position {
+	font-size: 15px;
+	color: #ff589e;
+}
+/* End what do */
 /* Section 4 */
 .section4 {
 	background-image: url(../image/fun-facts-bg.png);
