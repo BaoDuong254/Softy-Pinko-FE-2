@@ -5,6 +5,14 @@
 	--color-text: #1e1e1e;
 	--font: "Raleway", sans-serif;
 }
+::-moz-selection {
+	background: var(--color-two);
+	color: white;
+}
+::selection {
+	background: var(--color-two);
+	color: white;
+}
 html {
 	overflow-x: hidden;
 	scroll-behavior: smooth;
